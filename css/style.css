@@ -1,0 +1,319 @@
+/* **** GENERAL **** */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@500&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Anton', sans-serif;
+}
+
+h1
+{
+    font-size: 3.5em;
+    color: #F3D6BA;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+p
+{
+    color: #F3D6BA;
+    text-align: center;
+    font-size: 1.2em;
+    margin: 0px;
+}
+
+/* **** HEADER **** */
+
+.main-header
+{
+    background: url(../img/paysage.jpg) fixed center/cover;
+}
+
+.main-header p
+{
+    padding-bottom: 15px;
+}
+
+/* **** NAVBAR **** */
+
+
+.navbar-nav
+{
+    /* border: 1px solid black; */
+    margin-top: 15px;
+}
+
+nav
+{
+    display: flex;
+    /* border: 1px solid blue; */
+    list-style: none;
+    margin-right: 30px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+nav a
+{
+    text-decoration: none;
+    color: #F3D6BA;
+    position: relative;
+    font-size: 1.2em;
+}
+
+.moi
+{
+    margin-right: 15px;
+}
+
+/* Styles pour le pseudo-élément ::before */
+.navbar-nav a::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%; /* Positionne le pseudo-élément au milieu */
+    width: 0;
+    height: 2px; /* Épaisseur de la bordure inférieure */
+    background-color: #FFF5E9; /* Couleur de la bordure */
+    transition: all 0.3s; /* Transition pour l'agrandissement */
+    transform: translateX(-50%); /* Ajuste la position au milieu */
+}
+
+/* Styles au survol des liens */
+nav a:hover::before {
+    width: 100%; /* Agrandit le pseudo-élément de gauche à droite */
+}
+
+/* **** ICONS **** */
+
+.icons-navbar
+{
+    margin-right: 100px;
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+nav .bi-facebook
+{
+    color: #F3D6BA;
+    margin-right: 5px;
+}
+
+nav .bi-facebook:hover
+{
+    font-size: 1.3em;
+}
+
+nav .bi-instagram
+{
+    color: #F3D6BA;
+    margin-right: 5px;
+}
+
+nav .bi-instagram:hover
+{
+    font-size: 1.3em;
+}
+
+nav .bi-linkedin
+{
+    color: #F3D6BA;
+    margin-right: 5px;
+}
+
+nav .bi-linkedin:hover
+{
+    font-size: 1.3em;
+}
+
+nav .bi-github
+{
+    color: #F3D6BA;
+}
+
+nav .bi-github:hover
+{
+    font-size: 1.3em;
+}
+
+/* **** IMAGES **** */
+
+img
+{
+    max-width: 100%;
+    height: auto;
+}
+
+.rounded-circle
+{
+    border-radius: 50px;
+    max-width: 100%;
+}
+
+.profile-picture
+{
+    text-align: center;
+    margin: 0px auto 30px 0px;
+    height: auto;
+    width: auto;
+}
+
+
+
+/* **** ABOUT **** */
+
+#presentation
+{
+    background: #F3D6BA;
+    height: auto;
+    width: auto;
+    display: flex;
+    background: rgb(243, 214, 186, 0.2);
+}
+
+#presentation p
+{
+    color: #816D6C;
+    font-size: 1em;
+    padding: 30px 0px 30px 0px;
+    text-align: justify;
+}
+
+/* **** PORTFOLIO **** */
+
+.main-portfolio
+{
+    background: url(../img/lever.jpg) fixed;
+    background-position: 50% 75%;
+    background-size: cover;
+    height: auto;
+    padding-top: 20px;
+}
+#portfolio h1
+{
+    color: #3D2328;
+    text-align: center;
+}
+
+#portfolio img
+{
+    margin-top: 20px;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 10px 5px 5px #333333;
+}
+    
+ #portfolio img:hover 
+ {
+    transform: scale(0.90); /* Réduire l'image au survol */
+}
+
+#portfolio .col-md-3
+{
+    text-align: center;
+}
+
+
+
+/* **** CONTACT **** */
+
+#contact
+{
+    background: #F3D6BA;
+    background: rgb(243, 214, 186, 0.3);
+}
+
+label
+{
+    color: #F3D6BA;
+    margin-bottom: 10px;
+}
+
+#firstname
+{
+    margin-bottom: 10px;
+    color: #816D6C;
+}
+
+#email
+{
+    color: #816D6C;
+}
+
+#message
+{
+    margin-bottom: 20px;
+    color: #816D6C;
+}
+
+.btn2
+{
+    margin-bottom: 10px;
+}
+
+/* **** FOOTER **** */
+
+.icons-footer
+{
+    text-align: center;
+    margin-right: 100px;
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+.icons-footer a
+{
+    color: #F3D6BA;
+}
+
+#footer p
+{
+    font-size: 0.9em;
+}
+
+
+/* **** FLECHE **** */
+
+#scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 100px;
+    display: none;
+    cursor: pointer;
+    z-index: 999;
+}
+
+#scroll-to-top a {
+    font-size: 50px;
+    color: #F3D6BA;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+
+/* **** RESPONSIVE **** */
+
+/* 991px nav en burger */
+
+@media screen and (max-width: 991px) {
+    .icons-navbar
+    {
+        display: none;
+    }
+    
+    /* Assurez-vous que les icônes ne sont pas visibles dans le menu principal sur les écrans étroits */
+    #navbarNavAltMarkup .icons-navbar {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    #scroll-to-top
+    {
+        display: none;
+    }
+}
