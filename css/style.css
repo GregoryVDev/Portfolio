@@ -304,6 +304,9 @@ label
     {
         display: none;
     }
+        .navbar-nav a::before {
+        content: none;
+    }
     
     /* Assurez-vous que les icônes ne sont pas visibles dans le menu principal sur les écrans étroits */
     #navbarNavAltMarkup .icons-navbar {
@@ -315,5 +318,9 @@ label
     #scroll-to-top
     {
         display: none;
+    }
+
+    .navbar-nav a::before {
+        content: none;
     }
 }
