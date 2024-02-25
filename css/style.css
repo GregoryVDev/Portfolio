@@ -128,11 +128,7 @@ nav .bi-github {
 img {
   max-width: 100%;
   height: auto;
-}
-
-.rounded-circle {
   border-radius: 50px;
-  max-width: 100%;
 }
 
 .profile-picture {
