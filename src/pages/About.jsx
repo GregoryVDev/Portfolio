@@ -5,7 +5,8 @@ export const About = () => {
     <div>
       <Header />
       <div className="about">
-      <img src="../assets/images/moi.jpg" alt="Photo de moi" />
+        <img src="/public/images/moi.jpg" alt="Photo de moi" />
+        <h1>Grégory <span className="nom">Yéramian</span></h1>
       </div>
     </div>
   );

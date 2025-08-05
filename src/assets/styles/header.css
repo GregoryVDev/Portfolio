@@ -22,3 +22,11 @@ li {
 .navigation ul li a:hover {
     color: #D4AF37;
 }
+
+h1 {
+    text-align: center;
+}
+
+.nom {
+    text-transform: uppercase;
+}
