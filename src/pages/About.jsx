@@ -4,10 +4,11 @@ export const About = () => {
   return (
     <div>
       <Header />
-      <div className="about">
+      <section className="about">
         <img src="/public/images/moi.jpg" alt="Photo de moi" />
         <h1>Grégory <span className="nom">Yéramian</span></h1>
-      </div>
+        <h2>Développeur fullstack</h2>
+      </section>
     </div>
   );
 };
