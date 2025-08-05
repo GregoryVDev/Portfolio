@@ -11,8 +11,14 @@ h1, h2, a {
 ul {
     display: flex;
     gap: 20px;
+    justify-content: center;
+    padding: 0
 }
 
 li {
     list-style-type: none;
+}
+
+.navigation ul li a:hover {
+    color: #D4AF37;
 }
