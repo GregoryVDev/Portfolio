@@ -4,5 +4,15 @@ body {
 }
 
 h1, h2, a {
-    color: #60A5FA;
+    color: #FACC15;
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+}
+
+li {
+    list-style-type: none;
 }
