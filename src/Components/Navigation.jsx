@@ -15,12 +15,12 @@ export const Navigation = () => {
           </NavLink>
         </li>
         <li>
-          <NavLink to="/skills" className={(nav) => (nav.isActive ? "nav-active" : "")}>
+          <NavLink to="/projects" className={(nav) => (nav.isActive ? "nav-active" : "")}>
             Projets
           </NavLink>
         </li>
         <li>
-          <NavLink to="/projects" className={(nav) => (nav.isActive ? "nav-active" : "")}>
+          <NavLink to="/skills" className={(nav) => (nav.isActive ? "nav-active" : "")}>
             Compétences
           </NavLink>
         </li>
