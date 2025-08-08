@@ -19,3 +19,13 @@ h1 {
     text-align: center;
     font-size: 2rem;
 }
+
+.medias {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.media {
+    font-size: 2rem;
+}
