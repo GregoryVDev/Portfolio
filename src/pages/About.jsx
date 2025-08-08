@@ -11,6 +11,7 @@ export const About = () => {
         <img src="/public/images/moi.jpg" alt="Photo de moi" />
         <h1>Grégory <span className="nom">Yéramian</span></h1>
         <h2>Développeur fullstack</h2>
+        <div className="dr"></div>
         <SocialIcons />
       </section>
     </div>
