@@ -4,6 +4,7 @@ import { Projects } from "./Components/Projects.jsx";
 import { Skills } from "./Components/Skills.jsx";
 import "./App.css";
 
+
 export function App() {
   return (
     <BrowserRouter>
