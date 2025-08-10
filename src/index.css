@@ -15,7 +15,7 @@ h1 {
 }
 
 .about h2 {
-    color: #FACC15;
+    color: #f5f5f5;
     text-align: center;
     font-size: 2rem;
 }
@@ -28,13 +28,129 @@ h1 {
 
 .media {
     font-size: 2rem;
+    display: inline-block;
+    transition: transform 0.2s ease;
+}
+
+.media:hover {
+    animation: coinBounce 0.4s ease;
+    color: red;
+}
+
+@keyframes coinBounce {
+    0% {
+        transform: translateY(0) scale(1);
+    }
+
+    30% {
+        transform: translateY(-20px) scale(1.1);
+    }
+
+    60% {
+        transform: translateY(0) scale(1);
+    }
+
+    80% {
+        transform: translateY(-5px) scale(1.05);
+    }
+
+    100% {
+        transform: translateY(0) scale(1);
+    }
 }
 
 .dr {
     width: 100px;
     height: 8px;
-    background: #f5f5f5;
-    margin: auto auto 20px;;
+    background: #FACC15;
+    margin: auto auto 50px;
     position: relative;
     bottom: 15px;
+}
+
+.wave {
+  display: inline-block;
+  transform-origin: 70% 70%;
+  animation: waveHand 2s ease-in-out infinite;
+  animation-delay: 3s;
+}
+
+/* Faire signe (wave) de la main */
+
+@keyframes waveHand {
+  0% { transform: rotate(0deg); }
+  10% { transform: rotate(18deg); }
+  20% { transform: rotate(-14deg); }
+  30% { transform: rotate(22deg); }
+  40% { transform: rotate(-16deg); }
+  50% { transform: rotate(20deg); }
+  60% { transform: rotate(-12deg); }
+  70% { transform: rotate(14deg); }
+  80% { transform: rotate(-8deg); }
+  90% { transform: rotate(8deg); }
+  100% { transform: rotate(0deg); }
+}
+
+/* Cube Mario */
+
+.mario-block {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  background: #f4a261;
+  border: 3px solid #b5651d;
+  box-shadow: inset -3px -3px #e76f51, inset 3px 3px #fcd5b5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  overflow: visible;
+}
+
+.mario-block::before {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 2px 2px #b5651d;
+}
+
+.icon {
+  position: absolute;
+  bottom: 60px;
+  left: 50%;
+  transform: translate(-50%, 20px);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.4s ease;
+  z-index: 10;
+}
+
+.icon svg {
+  width: 30px;
+  height: 50px;
+}
+
+.mario-block:hover .icon {
+  opacity: 1;
+  pointer-events: auto;
+  animation: coinSpin 0.6s ease forwards;
+}
+
+/* Faire une animation de pièce */
+
+@keyframes coinSpin {
+  0% {
+    transform: translate(-50%, 20px) rotateY(0deg);
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  50% {
+    transform: translate(-50%, -10px) rotateY(180deg);
+  }
+  100% {
+    transform: translate(-50%, 0px) rotateY(360deg);
+    opacity: 1;
+  }
 }
