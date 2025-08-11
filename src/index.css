@@ -130,6 +130,22 @@ h1 {
   height: 50px;
 }
 
+.medias a:nth-child(1) .icon svg {
+  color: #f5f5f5;
+}
+
+.medias a:nth-child(2) .icon svg {
+  color: #0077b5;
+}
+
+.medias a:nth-child(3) .icon svg {
+  color: green;
+}
+
+.medias a:nth-child(4) .icon svg {
+  color: orange;
+}
+
 .mario-block:hover .icon {
   opacity: 1;
   pointer-events: auto;
