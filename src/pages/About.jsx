@@ -1,6 +1,5 @@
 import { Header } from "../Components/Header";
 import { SocialIcons } from "../Components/SocialIcons";
-import { IoMailOutline } from "react-icons/io5";
 
 export const About = () => {
   return (
