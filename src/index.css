@@ -170,3 +170,7 @@ h1 {
     opacity: 1;
   }
 }
+
+p {
+  font-family: 'MontserratRegular';
+}
