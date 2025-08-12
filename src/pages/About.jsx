@@ -46,8 +46,8 @@ export const About = () => {
         <div className="container-projects">
           <article className="project">
             <figure>
-              <a href="">
-                <img src="../../public/images/Jadoo.png" alt="" />
+              <a href="https://gregoryvdev.com/jadoo/">
+                <img src="../../public/images/Jadoo.png" alt="Site Jadoo" />
               </a>
               <figcaption>
                 <h3>Jadoo</h3>
@@ -58,6 +58,22 @@ export const About = () => {
             </figure>
           </article>
         </div>
+        <div className="container-projects">
+          <article className="project">
+            <figure>
+              <a href="https://gregoryvdev.com/worldtravel/">
+                <img src="../../public/images/worldtravel.png" alt="Site World Travel" />
+              </a>
+              <figcaption>
+                <h3>World Travel</h3>
+                <div className="container-icons">
+                  <SkillsIcons />
+                </div>
+              </figcaption>
+            </figure>
+          </article>
+        </div>
+
       </section>
     </div>
   );
