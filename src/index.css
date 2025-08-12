@@ -237,6 +237,7 @@ section img {
 .skills {
   display: flex;
   align-items: center;
+  gap: 5px;
 }
 
 .skills svg {
