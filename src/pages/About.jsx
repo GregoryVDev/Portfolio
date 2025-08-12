@@ -1,5 +1,7 @@
 import { Header } from "../Components/Header";
 import { SocialIcons } from "../Components/SocialIcons";
+import { SkillsIcons } from "../Components/SkillsIcons";
+
 
 export const About = () => {
   return (
@@ -49,7 +51,9 @@ export const About = () => {
               </a>
               <figcaption>
                 <h3>Jadoo</h3>
-                <p></p>
+                <div className="container-icons">
+                  <SkillsIcons />
+                </div>
               </figcaption>
             </figure>
           </article>

@@ -223,3 +223,31 @@ section img {
 .project figure h3 {
   text-align: center;
 }
+
+.container-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.html {
+  color: #E86326;
+}
+
+.skills {
+  display: flex;
+  align-items: center;
+}
+
+.skills svg {
+  width: 30px;
+  height: 30px;
+}
+
+.css {
+  color: #306AF1
+}
+
+.js {
+  color: #F9C508
+}
