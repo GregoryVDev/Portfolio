@@ -43,7 +43,15 @@ export const About = () => {
         <h2>Mes projets 💻</h2>
         <div className="container-projects">
           <article className="project">
-            <img src="" alt="" />
+            <figure>
+              <a href="">
+                <img src="../../public/images/Jadoo.png" alt="" />
+              </a>
+              <figcaption>
+                <h3>Jadoo</h3>
+                <p></p>
+              </figcaption>
+            </figure>
           </article>
         </div>
       </section>
