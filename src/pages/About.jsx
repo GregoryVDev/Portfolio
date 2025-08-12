@@ -73,7 +73,6 @@ export const About = () => {
             </figure>
           </article>
         </div>
-
       </section>
     </div>
   );

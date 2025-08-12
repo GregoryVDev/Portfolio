@@ -216,6 +216,10 @@ section h2 {
   border: 1px solid white;
 }
 
+.project figcaption {
+  margin-bottom: 10px;
+}
+
 section img {
   width: 100%;
 }
