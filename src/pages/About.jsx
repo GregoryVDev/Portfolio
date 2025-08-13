@@ -2,7 +2,6 @@ import { Header } from "../Components/Header";
 import { SocialIcons } from "../Components/SocialIcons";
 import { SkillsIcons } from "../Components/SkillsIcons";
 
-
 export const About = () => {
   return (
     <div>
@@ -46,9 +45,7 @@ export const About = () => {
         <div className="container-projects">
           <article className="project">
             <figure>
-              <a href="https://gregoryvdev.com/jadoo/">
-                <img src="../../public/images/Jadoo.png" alt="Site Jadoo" />
-              </a>
+              <img src="../../public/images/Jadoo.png" alt="Site Jadoo" />
               <figcaption>
                 <h3>Jadoo</h3>
                 <div className="container-icons">
@@ -61,9 +58,10 @@ export const About = () => {
         <div className="container-projects">
           <article className="project">
             <figure>
-              <a href="https://gregoryvdev.com/worldtravel/">
-                <img src="../../public/images/worldtravel.png" alt="Site World Travel" />
-              </a>
+              <img
+                src="../../public/images/worldtravel.png"
+                alt="Site World Travel"
+              />
               <figcaption>
                 <h3>World Travel</h3>
                 <div className="container-icons">
