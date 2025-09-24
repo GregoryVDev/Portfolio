@@ -49,7 +49,39 @@ export const About = () => {
               <figcaption>
                 <h3>Jadoo</h3>
                 <div className="container-icons">
-                  <SkillsIcons />
+                  <SkillsIcons techs={["html", "css", "js"]} />
+                </div>
+              </figcaption>
+            </figure>
+          </article>
+        </div>
+        <div className="container-projects">
+          <article className="project">
+            <figure>
+              <img
+                src="../../public/images/worldtravel.png"
+                alt="Site World Travel"
+              />
+              <figcaption>
+                <h3>Take a FeaRIEND</h3>
+                <div className="container-icons">
+                  <SkillsIcons techs={["html", "css", "js", "php", "mysql"]} />
+                </div>
+              </figcaption>
+            </figure>
+          </article>
+        </div>
+        <div className="container-projects">
+          <article className="project">
+            <figure>
+              <img
+                src="../../public/images/feariend.png"
+                alt="Site World Travel"
+              />
+              <figcaption>
+                <h3>Take a FeaRIEND</h3>
+                <div className="container-icons">
+                  <SkillsIcons techs={["html", "css", "js", "php", "mysql"]} />
                 </div>
               </figcaption>
             </figure>
