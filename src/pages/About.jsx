@@ -63,9 +63,9 @@ export const About = () => {
                 alt="Site World Travel"
               />
               <figcaption>
-                <h3>Take a FeaRIEND</h3>
+                <h3>World Travel</h3>
                 <div className="container-icons">
-                  <SkillsIcons techs={["html", "css", "js", "php", "mysql"]} />
+                  <SkillsIcons techs={["html", "css", "js"]} />
                 </div>
               </figcaption>
             </figure>
