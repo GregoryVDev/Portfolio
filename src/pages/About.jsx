@@ -91,13 +91,13 @@ export const About = () => {
           <article className="project">
             <figure>
               <img
-                src="../../public/images/worldtravel.png"
+                src="../../public/images/onlinetraining.png"
                 alt="Site World Travel"
               />
               <figcaption>
-                <h3>World Travel</h3>
+                <h3>Onlinetraining</h3>
                 <div className="container-icons">
-                  <SkillsIcons />
+                  <SkillsIcons techs={["html", "css", "js", "php", "mysql"]} />
                 </div>
               </figcaption>
             </figure>
