@@ -103,6 +103,22 @@ export const About = () => {
             </figure>
           </article>
         </div>
+        <div className="container-projects">
+          <article className="project">
+            <figure>
+              <img
+                src="../../public/images/sevac.png"
+                alt="Site World Travel"
+              />
+              <figcaption>
+                <h3>Sevac</h3>
+                <div className="container-icons">
+                  <SkillsIcons techs={["html", "css", "js", "php"]} />
+                </div>
+              </figcaption>
+            </figure>
+          </article>
+        </div>
       </section>
     </div>
   );
