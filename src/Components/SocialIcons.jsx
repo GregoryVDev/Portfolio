@@ -31,7 +31,7 @@ export const SocialIcons = () => {
       </a>
 
       <a
-        href="/images/gregory_yeramian_dwwm_alternance.pdf"
+        href="/images/gregory_cv_cda.pdf"
         download
         className="mario-block"
         aria-label="Télécharger CV"

@@ -15,9 +15,9 @@ export const SkillsIcons = ({ techs = [] }) => {
     <div className="skills">
       {techs.map((tech, index) => (
         <div key={index} className={`skill-item ${tech}`}>
-  {iconsMap[tech]}
-  {index < techs.length - 1 && <span className="tiret">-</span>}
-</div>
+          {iconsMap[tech]}
+          {index < techs.length - 1 && <span className="tiret">-</span>}
+        </div>
       ))}
     </div>
   );

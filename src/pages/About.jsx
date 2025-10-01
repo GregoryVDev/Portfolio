@@ -1,6 +1,7 @@
 import { Header } from "../Components/Header";
 import { SocialIcons } from "../Components/SocialIcons";
 import { SkillsIcons } from "../Components/SkillsIcons";
+import { useEffect } from "react";
 
 export const About = () => {
   return (
