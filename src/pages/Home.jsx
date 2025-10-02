@@ -45,7 +45,7 @@ export const Home = () => {
             <span className="download" aria-label="download" role="img">
               📝
             </span>
-            Télécharger{" "}
+            Télécharger
             <a
               href="/images/gregory_cv_cda.pdf"
               download
