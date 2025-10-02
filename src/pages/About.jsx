@@ -12,7 +12,7 @@ export const About = () => {
         <h1>
           Bienvenue, Je suis Grégory
         </h1>
-        <h2>En recherche d'une alternance Concépteur Développeur d'Application</h2>
+        <h2>En recherche d'une alternance Concepteur Développeur d'Application</h2>
         <div className="dr"></div>
         <SocialIcons />
 
