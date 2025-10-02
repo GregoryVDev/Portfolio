@@ -233,7 +233,14 @@ section h2 {
   font-size: 16px;
 }
 
+.resum a {
+  color: #F2CD11;
+  font-weight: bold;
+}
 
+.resum a:hover {
+  text-decoration: underline;
+}
 
 /* SECTION PROJETS */
 
