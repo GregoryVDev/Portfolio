@@ -6,17 +6,17 @@ export const Navigation = () => {
       <ul>
         <li>
           <NavLink to="/" className={(nav) => (nav.isActive ? "nav-active" : "")}>
+            Accueil
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="/about" className={(nav) => (nav.isActive ? "nav-active" : "")}>
             A propos
           </NavLink>
         </li>
         <li>
-          <NavLink to="/projects" className={(nav) => (nav.isActive ? "nav-active" : "")}>
-            Projets
-          </NavLink>
-        </li>
-        <li>
-          <NavLink to="/skills" className={(nav) => (nav.isActive ? "nav-active" : "")}>
-            Compétences
+          <NavLink to="/Portfolio" className={(nav) => (nav.isActive ? "nav-active" : "")}>
+            Portfolio
           </NavLink>
         </li>
       </ul>

@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { About } from "./pages/About.jsx";
-import { Projects } from "./Components/Projects.jsx";
-import { Skills } from "./Components/Skills.jsx";
+import { Home } from "./pages/Home.jsx";
+import { About } from "./pages/About.jsx"
+import { Portfolio } from "./pages/Portfolio.jsx";
 import "./App.css";
 
 
@@ -9,9 +9,9 @@ export function App() {
   return (
     <BrowserRouter>
     <Routes>
-      <Route path="/" element={<About />} />
-      <Route path="/projects" element={<Projects />} />
-      <Route path="/skills" element={<Skills />} />
+      <Route path="/" element={<Home />} />
+      <Route path="/about" element={<About />} />
+      <Route path="/portfolio" element={<Portfolio />} />
       {/* <Route path="*" element={<NotFound />} />  */}
     </Routes>
     </BrowserRouter>

@@ -29,31 +29,6 @@ export const SocialIcons = () => {
           <FaLinkedin />
         </div>
       </a>
-
-      <a
-        href="/images/gregory_cv_cda.pdf"
-        download
-        className="mario-block"
-        aria-label="Télécharger CV"
-      >
-        <span className="question-mark">?</span>
-        <div className="icon">
-          <FaFileDownload />
-        </div>
-      </a>
-
-      <a
-        href="mailto:gregoryvdev@gmail.com"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="mario-block"
-        aria-label="Email"
-      >
-        <span className="question-mark">?</span>
-        <div className="icon">
-          <IoMailOutline />
-        </div>
-      </a>
     </div>
   );
 };
