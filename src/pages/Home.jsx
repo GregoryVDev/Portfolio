@@ -45,7 +45,13 @@ export const Home = () => {
             <span className="download" aria-label="download" role="img">
               📝
             </span>
-            Télécharger C.V
+            <a
+              href="/images/gregory_cv_cda.pdf"
+              download
+              aria-label="Télécharger CV"
+            >
+              Télécharger C.V
+            </a>
           </li>
         </ul>
         <SocialIcons />
