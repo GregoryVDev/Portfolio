@@ -6,6 +6,12 @@ h1 {
   color: #252C36;
 }
 
+.content {
+  font-family: "RobotoRegular";
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
 section h2 {
   color: #252C36;
   text-align: center;

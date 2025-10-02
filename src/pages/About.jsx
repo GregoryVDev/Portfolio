@@ -10,9 +10,9 @@ export const About = () => {
       <section className="about">
         <img src="/public/images/moi.jpg" alt="Photo de moi" />
         <h1>
-          Bienvenue, Je suis Grégory<span className="wave">👋</span>
+          Je suis Grégory<span className="wave">👋</span>
         </h1>
-        <h2>En recherche d'une alternance Concepteur Développeur d'Application</h2>
+        <h2 className="content">Je recherche une alternance en Concepteur Développeur d'Application</h2>
         <div className="dr"></div>
         <SocialIcons />
 
