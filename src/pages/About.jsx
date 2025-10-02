@@ -10,14 +10,14 @@ export const About = () => {
       <section className="about">
         <img src="/public/images/moi.jpg" alt="Photo de moi" />
         <h1>
-          Bienvenue, Je suis Grégory
+          Bienvenue, Je suis Grégory<span className="wave">👋</span>
         </h1>
         <h2>En recherche d'une alternance Concepteur Développeur d'Application</h2>
         <div className="dr"></div>
         <SocialIcons />
 
         <h2>
-          A propos de moi <span className="wave">👋</span>
+          A propos de moi 
         </h2>
         <p>
           Titulaire d'un C.A.P Cuisine obtenu en 2013, j'ai exercé ce métier
