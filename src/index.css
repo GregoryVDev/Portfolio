@@ -141,9 +141,11 @@ section h2 {
   position: relative;
   width: 50px;
   height: 50px;
-  background: #f4a261;
-  border: 3px solid #b5651d;
-  box-shadow: inset -3px -3px #e76f51, inset 3px 3px #fcd5b5;
+  background: #F2CD11;
+  border: 3px solid #D4A800;
+  box-shadow:
+    inset -3px -3px #E6D600,
+    inset 3px 3px #C9A800;
   display: flex;
   justify-content: center;
   align-items: center;
