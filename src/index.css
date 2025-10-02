@@ -225,12 +225,13 @@ section h2 {
 }
 
 .container-infos [role="img"] {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   margin-right: 0.5rem;
 }
 
 .container-infos li {
   font-size: 16px;
+  font-family: "RobotoRegular";
 }
 
 .resum a {
@@ -271,39 +272,4 @@ section img {
   flex-wrap: wrap;
   justify-content: center;
   gap: 10px;
-}
-
-.skill-item {
-  display: flex;
-  align-items: center;
-  gap: 5px;
-}
-
-.skills svg {
-  width: 30px;
-  height: 30px;
-}
-
-.tiret {
-  color: white;
-}
-
-.html {
-  color: #e86326;
-}
-
-.css {
-  color: #306af1;
-}
-
-.js {
-  color: #f9c508;
-}
-
-.php {
-  color: #7277ad;
-}
-
-.mysql {
-  color: #e5910a;
 }
