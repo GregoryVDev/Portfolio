@@ -16,25 +16,25 @@ export const Home = () => {
         <div className="dr"></div>
         <ul className="container-infos">
           <li>
-            <span class="coffee" aria-label="coffee" role="img">
+            <span className="coffee" aria-label="coffee" role="img">
               ☕
             </span>
             Un petit café ?
           </li>
           <li>
-            <span class="world" aria-label="world" role="img">
+            <span className="world" aria-label="world" role="img">
               🌎
             </span>
             Bordeaux
           </li>
           <li>
-            <span class="job" aria-label="job" role="img">
+            <span className="job" aria-label="job" role="img">
               💼
             </span>
             En recherche d'une alternance Concepteur Développeur d'Application
           </li>
           <li>
-            <span class="mail" aria-label="mail" role="img">
+            <span className="mail" aria-label="mail" role="img">
               📧
             </span>
             <a href="mailto:gregoryvdev@gmail.com" target="_blank">
@@ -42,7 +42,7 @@ export const Home = () => {
             </a>
           </li>
           <li>
-            <span class="download" aria-label="download" role="img">
+            <span className="download" aria-label="download" role="img">
               📝
             </span>
             Télécharger C.V

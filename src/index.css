@@ -151,7 +151,9 @@ section h2 {
   align-items: center;
   cursor: pointer;
   overflow: visible;
-  font-size: 2rem;
+  font-size: 1.5rem;
+  font-family: 'PressStart', cursive;
+  color: #F7F7F7;
 }
 
 .mario-block::before {

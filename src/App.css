@@ -15,6 +15,11 @@ body {
   src: url("./assets/fonts/Roboto-Regular.ttf") format('truetype');
 }
 
+@font-face {
+  font-family: "PressStart";
+  src: url("./assets/fonts/PressStart2P-Regular.ttf") format('truetype');
+}
+
 h1,
 h2,
 a {
