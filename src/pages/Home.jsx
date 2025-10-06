@@ -16,7 +16,7 @@ export const Home = () => {
         <ul className="container-infos">
           <li>
             <span className="world" aria-label="world" role="img">
-              ​🗺️​
+              ​🌍
             </span>
             Bordeaux
           </li>
