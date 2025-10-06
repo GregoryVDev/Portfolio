@@ -1,0 +1,10 @@
+.infos h1 {
+    text-transform: uppercase;
+    text-align: left;
+    padding: 10px;
+    color: #252C36;
+}
+
+.infos p {
+    font-family: "RobotoRegular";
+}
