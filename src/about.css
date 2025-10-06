@@ -8,3 +8,60 @@
 .infos p {
     font-family: "RobotoRegular";
 }
+
+.faq {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #252C36;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Nunito', sans-serif;
+}
+
+.faq h2 {
+    text-align: center;
+    color: #facc15;
+    margin-bottom: 20px;
+}
+
+.faq-item {
+    border-bottom: 1px solid #ddd;
+}
+
+.faq-question {
+    width: 100%;
+    background: none;
+    border: none;
+    text-align: left;
+    font-size: 1.1em;
+    font-weight: bold;
+    padding: 15px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background 0.3s;
+    background: #facc15;
+}
+
+.faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease, opacity 0.3s ease;
+    opacity: 0;
+    padding: 0 15px;
+}
+
+.faq-answer.show {
+    max-height: 300px;
+    opacity: 1;
+    padding: 10px 15px 15px;
+    background: #f9f9f9;
+}
+
+.faq-icon {
+    font-size: 1.3em;
+    color: #555;
+    margin-left: 10px;
+}

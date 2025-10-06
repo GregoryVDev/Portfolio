@@ -1,4 +1,5 @@
 import { Header } from "../Components/Header";
+import React, { useState } from "react";
 
 export const About = () => {
   // Liste des questions et de réponses
@@ -26,11 +27,17 @@ export const About = () => {
     },
   ];
 
-  // Ouvrir les questions ouvertes
-  const [activeIndex, setActiveIndex] = usestate(null);
+  // Stocker plusieurs index ouverts dans le tableau
+  const [openIndexes, setOpenIndexes] = useState([]);
 
   const toggleFAQ = (index) => {
-    setActiveIndex(index === activeIndex ? null : index);
+    if (openIndexes.includes(index)) {
+      // Si la question est déjà ouverte, on la retire du tableau
+      setOpenIndexes(openIndexes.filter((i) => i !== index));
+    } else {
+      // Sinon, on l'ajoute au tableau
+      setOpenIndexes([...openIndexes, index]);
+    }
   };
 
   return (
@@ -60,6 +67,33 @@ export const About = () => {
           Je sais qu'il me reste encore beaucoup à apprendre, mais je suis
           motivé, ambitieux et toujours prêt à relever de nouveaux défis.
         </p>
+      </section>
+      <section className="faq">
+        <h2>Foire aux questions</h2>
+        <div className="faq-container">
+          {faqData.map((item, index) => (
+            <div key={index} className="faq-item">
+              <button
+                className={`faq-question ${
+                  openIndexes.includes(index) ? "active" : ""
+                }`}
+                onClick={() => toggleFAQ(index)}
+              >
+                {item.question}
+                <span className="faq-icon">
+                  {openIndexes.includes(index) ? "-" : "+"}
+                </span>
+              </button>
+              <div
+                className={`faq-answer ${
+                  openIndexes.includes(index) ? "show" : ""
+                }`}
+              >
+                <p>{item.answer}</p>
+              </div>
+            </div>
+          ))}
+        </div>
       </section>
     </div>
   );
