@@ -9,6 +9,8 @@
     font-family: "RobotoRegular";
 }
 
+/* SECTION FAQ */
+
 .faq {
     max-width: 700px;
     margin: 50px auto;
@@ -62,6 +64,21 @@
 
 .faq-icon {
     font-size: 1.3em;
-    color: #555;
+    color: #252C36;
     margin-left: 10px;
+}
+
+/* SECTION SKILLS */
+
+.skills h2 {
+    text-transform: uppercase;
+    text-align: left;
+    font-family: "RobotoRegular";
+}
+
+.skills .low {
+    font-size: 18px;
+    font-weight: 400;
+    color: #252C36;
+    font-family: "RobotoRegular";
 }

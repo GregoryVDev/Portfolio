@@ -1,5 +1,5 @@
 import { FaHtml5, FaCss3Alt, FaNodeJs, FaPhp } from "react-icons/fa";
-import { SiMysql } from "react-icons/si"; // MySQL est dans react-icons/si
+import { SiMysql } from "react-icons/si";
 
 // Carte des icônes par techno
 const iconsMap = {
@@ -12,11 +12,11 @@ const iconsMap = {
 
 export const SkillsIcons = ({ techs = [] }) => {
   return (
-    <div className="skills">
+    <div className="skills-container">
       {techs.map((tech, index) => (
-        <div key={index} className={`skill-item ${tech}`}>
-          {iconsMap[tech]}
-          {index < techs.length - 1 && <span className="tiret">-</span>}
+        <div key={index} className="mario-block">
+          <span className="question-mark">?</span>
+          <div className="icon">{iconsMap[tech]}</div>
         </div>
       ))}
     </div>
