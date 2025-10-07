@@ -58,7 +58,6 @@ export const About = () => {
           valeurs qu'en cuisine : organisation, rapidité, sens des
           responsabilités et créativité.
         </p>
-        <p></p>
         <p>
           Ce que j'aime dans ce métier, c'est la créativité. J'apprécie autant
           travailler sur le front-end que le back-end. J'y trouve toujours de

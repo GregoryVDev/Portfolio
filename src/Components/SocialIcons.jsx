@@ -1,5 +1,4 @@
 import { FaLinkedin, FaGithub, FaFileDownload } from "react-icons/fa";
-import { IoMailOutline } from "react-icons/io5";
 
 export const SocialIcons = () => {
   return (
