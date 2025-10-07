@@ -2,7 +2,6 @@
     text-transform: uppercase;
     text-align: left;
     padding: 10px;
-    color: #252C36;
 }
 
 .infos p {
@@ -15,7 +14,7 @@
     max-width: 700px;
     margin: 50px auto;
     padding: 20px;
-    background: #252C36;
+    background: #2C3E50;
     border-radius: 15px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     font-family: 'Nunito', sans-serif;
@@ -81,4 +80,29 @@
     font-weight: 400;
     color: #252C36;
     font-family: "RobotoRegular";
+}
+
+/* TEST */
+
+.tech-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.tech-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.2rem;
+    padding: 8px 0;
+}
+
+.tech-item svg {
+    font-size: 1.8rem;
+    color: var(--accent-color, #ff7f50);
+}
+
+.tech-name {
+    font-weight: 500;
 }

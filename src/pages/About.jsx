@@ -1,6 +1,6 @@
 import { Header } from "../Components/Header";
 import React, { useState } from "react";
-import { Skills } from "../Components/Skills";
+import { SkillsIcons } from "../Components/SkillsIcons";
 
 export const About = () => {
   // Liste des questions et de réponses
@@ -100,7 +100,7 @@ export const About = () => {
         <h2>
           Mes technos ? <span className="low">Découvrons les...</span>
         </h2>
-        <Skills />
+        <SkillsIcons />
       </section>
     </div>
   );

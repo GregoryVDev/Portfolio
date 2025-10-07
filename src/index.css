@@ -3,7 +3,6 @@ h1 {
   font-size: 32px;
   margin: 0;
   font-family: "RobotoRegular";
-  color: #252C36;
 }
 
 .content {
@@ -13,7 +12,7 @@ h1 {
 }
 
 section h2 {
-  color: #252C36;
+  color: #2C3E50;
   text-align: center;
   font-size: 2rem;
 }
@@ -74,7 +73,7 @@ section h2 {
 .dr {
   width: 100px;
   height: 8px;
-  background: #facc15;
+  background: #8A8E91;
   margin: auto auto;
   position: relative;
   bottom: 15px;
@@ -235,7 +234,7 @@ section h2 {
 }
 
 .resum a {
-  color: #F2CD11;
+  color: #8A8E91;
   font-weight: bold;
 }
 
