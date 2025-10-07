@@ -6,7 +6,7 @@ import "../about.css";
 
 const techCategories = [
   {
-    category: "Front-End",
+    category: "FRONT-END",
     techs: [
       { name: "HTML", icon: <FaHtml5 /> },
       { name: "CSS", icon: <FaCss3Alt /> },
@@ -15,12 +15,18 @@ const techCategories = [
     ],
   },
   {
-    category: "Back-End",
+    category: "BACK-END",
     techs: [
       { name: "PHP", icon: <FaPhp /> },
       { name: "MySQL", icon: <SiMysql /> },
       { name: "Node.js", icon: <FaNodeJs /> },
     ],
+  },
+  {
+    category: "UX & UI",
+    techs: [
+      {name: "Figma", icon:       }
+    ]
   },
 ];
 
