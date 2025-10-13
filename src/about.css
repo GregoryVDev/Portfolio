@@ -78,6 +78,7 @@
     text-transform: uppercase;
     text-align: left;
     font-family: "RobotoRegular";
+    padding-left: 10px;
 }
 
 .skills .low {
@@ -112,7 +113,7 @@
 }
 
 .skills img {
-    width: 25px;
+    width: 30px;
 }
 
 .html-css-group {
