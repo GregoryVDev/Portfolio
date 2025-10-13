@@ -8,8 +8,14 @@ const techCategories = [
   {
     category: "FRONT-END",
     techs: [
-      { name: "HTML", icon: <img src="../assets/html5.svg" alt="HTML" /> },
-      { name: "CSS", icon: <FaCss3Alt /> },
+      {
+        name: "HTML",
+        icon: <img src="../../public/images/html5.svg" alt="HTML" />,
+      },
+      {
+        name: "CSS",
+        icon: <img src="../../public/images/css3.svg" alt="CSS" />,
+      },
       { name: "JavaScript", icon: <FaNodeJs /> },
       { name: "React", icon: <SiReact /> },
     ],
@@ -25,8 +31,8 @@ const techCategories = [
   {
     category: "UX & UI",
     techs: [
-      {name: "Figma", icon:       }
-    ]
+      { name: "Figma", icon: <img src="/assets/figma.svg" alt="Figma" /> },
+    ],
   },
 ];
 
