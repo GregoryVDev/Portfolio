@@ -58,7 +58,7 @@
     max-height: 300px;
     opacity: 1;
     padding: 10px 15px 15px;
-    background: #8A8E91;
+    background: #fff;
 }
 
 .faq-answer.show p {
@@ -95,6 +95,7 @@
 
 .tech-item {
     display: flex;
+    flex-direction: column;
     align-items: center;
     gap: 10px;
     font-size: 1.2rem;
@@ -108,4 +109,23 @@
 
 .tech-name {
     font-weight: 500;
+}
+
+.skills img {
+    width: 25px;
+}
+
+.html-css-group {
+    display: flex;
+    gap: 10px;
+}
+
+.js-react-group {
+    display: flex;
+    gap: 10px;
+}
+
+.boot-sass-group {
+    display: flex;
+    gap: 10px;
 }
