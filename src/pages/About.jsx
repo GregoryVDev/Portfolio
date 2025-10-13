@@ -96,9 +96,6 @@ export const About = () => {
         </div>
       </section>
       <section className="skills">
-        <h2>
-          Mes technos ? <span className="low">Découvrons les...</span>
-        </h2>
         <SkillsIcons />
       </section>
     </div>
