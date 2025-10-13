@@ -8,7 +8,7 @@ const techCategories = [
   {
     category: "FRONT-END",
     techs: [
-      { name: "HTML", icon: <FaHtml5 /> },
+      { name: "HTML", icon: <img src="../assets/html5.svg" /> },
       { name: "CSS", icon: <FaCss3Alt /> },
       { name: "JavaScript", icon: <FaNodeJs /> },
       { name: "React", icon: <SiReact /> },
