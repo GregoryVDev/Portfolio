@@ -61,6 +61,10 @@ const techCategories = [
         name: "Figma",
         icon: <img src="../../public/images/figma.svg" alt="Figma" />,
       },
+      {
+        name: "Wireframe",
+        icon: <img src="../../public/images/wireframe.jpg" alt="Wireframe" />,
+      },
     ],
   },
   {
@@ -72,6 +76,15 @@ const techCategories = [
           <img
             src="../../public/images/github_logo_icon_229278.png"
             alt="Github"
+          />
+        ),
+      },
+      {
+        name: "Trello",
+        icon: (
+          <img
+            src="../../public/images/trello-logo-slack-atlassian-trello.jpg"
+            alt="Trello"
           />
         ),
       },
