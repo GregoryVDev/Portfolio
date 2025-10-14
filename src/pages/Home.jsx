@@ -1,6 +1,5 @@
 import { Header } from "../Components/Header";
 import { SocialIcons } from "../Components/SocialIcons";
-import { useEffect } from "react";
 
 export const Home = () => {
   return (
