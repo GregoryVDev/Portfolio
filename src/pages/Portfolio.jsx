@@ -1,9 +1,13 @@
-import React from 'react';
+import { Header } from "../Components/Header";
+import React from "react";
 
 export const Portfolio = () => {
-    return (
-        <div>
-            
-        </div>
-    );
+  return (
+    <div>
+      <Header />
+      <div className="container-portfolio">
+        <img src="../../public/images/jadoopc.png" alt="Jadoo" />
+      </div>
+    </div>
+  );
 };
