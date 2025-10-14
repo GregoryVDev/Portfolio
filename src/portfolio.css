@@ -1,0 +1,9 @@
+.container-portfolio img {
+    width: 100%;
+}
+
+.mobile {
+    position: relative;
+    bottom: 110px;
+    right: 110px;
+}
