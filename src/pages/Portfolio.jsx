@@ -16,17 +16,13 @@ export const Portfolio = () => {
               className="mobile"
             />
             <div className="container-buttons">
-              <button>
-                <a href="#">
-                  <CgWebsite size="25px" />
-                  Démo
-                </a>
-              </button>
-              <button>
-                <a href="#">
-                  <FaGithub size="25px" /> Source Code
-                </a>
-              </button>
+              <a href="https://gregoryvdev.com/jadoo/">
+                <CgWebsite size="25px" />
+                Démo
+              </a>
+              <a href="https://github.com/GregoryVDev/acs-jadoo">
+                <FaGithub size="25px" /> Source Code
+              </a>
             </div>
           </div>
           <div className="container-portfolio">
@@ -41,17 +37,13 @@ export const Portfolio = () => {
                 className="mobile"
               />
               <div className="container-buttons">
-                <button>
-                  <a href="#">
-                    <CgWebsite size="25px" />
-                    Démo
-                  </a>
-                </button>
-                <button>
-                  <a href="#">
-                    <FaGithub size="25px" /> Source Code
-                  </a>
-                </button>
+                <a href="#">
+                  <CgWebsite size="25px" />
+                  Démo
+                </a>
+                <a href="#">
+                  <FaGithub size="25px" /> Source Code
+                </a>
               </div>
             </div>
           </div>
