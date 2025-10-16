@@ -40,6 +40,19 @@ export const Portfolio = () => {
                 alt="World Travel"
                 className="mobile"
               />
+              <div className="container-buttons">
+                <button>
+                  <a href="#">
+                    <CgWebsite size="25px" />
+                    Démo
+                  </a>
+                </button>
+                <button>
+                  <a href="#">
+                    <FaGithub size="25px" /> Source Code
+                  </a>
+                </button>
+              </div>
             </div>
           </div>
         </div>
