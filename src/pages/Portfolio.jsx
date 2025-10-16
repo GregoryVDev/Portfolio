@@ -40,11 +40,70 @@ export const Portfolio = () => {
                 className="mobile"
               />
               <div className="container-buttons">
-                <a href="#" target="_blanket">
+                <a
+                  href="https://gregoryvdev.com/worldtravel/"
+                  target="_blanket"
+                >
                   <CgWebsite size="25px" />
                   Démo
                 </a>
-                <a href="#" target="_blanket">
+                <a
+                  href="https://github.com/GregoryVDev/WorldTravel"
+                  target="_blanket"
+                >
+                  <FaGithub size="25px" /> Source Code
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="container-portfolio">
+            <div className="container-project">
+              <img src="../../public/images/playverse.png" alt="PlayVerse" />
+              <img
+                src="../../public/images/playversemobile.png"
+                alt="PlayVerse"
+                className="mobile"
+              />
+              <div className="container-buttons">
+                <a
+                  href="https://gregoryvdev.com/playverse/index.php"
+                  target="_blanket"
+                >
+                  <CgWebsite size="25px" />
+                  Démo
+                </a>
+                <a
+                  href="https://github.com/GregoryVDev/PlayVerse"
+                  target="_blanket"
+                >
+                  <FaGithub size="25px" /> Source Code
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="container-portfolio">
+            <div className="container-project">
+              <img
+                src="../../public/images/countriesflags.png"
+                alt="Countries Flags"
+              />
+              <img
+                src="../../public/images/countriesflagsmobile.png"
+                alt="Countries Flags"
+                className="mobile"
+              />
+              <div className="container-buttons">
+                <a
+                  href="https://gregoryvdev.com/countriesflags/"
+                  target="_blanket"
+                >
+                  <CgWebsite size="25px" />
+                  Démo
+                </a>
+                <a
+                  href="https://github.com/GregoryVDev/CountryFlag"
+                  target="_blanket"
+                >
                   <FaGithub size="25px" /> Source Code
                 </a>
               </div>
