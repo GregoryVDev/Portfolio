@@ -8,7 +8,7 @@ export const Home = () => {
       <section className="about">
         <img src="/public/images/moi.jpg" alt="Photo de moi" />
         <h1>
-          Je suis Grégory<span className="wave">👋</span>
+          Je suis Grégory<span className="wave">🤝​</span>
         </h1>
         <h2 className="content">Développeur Web Full Stack</h2>
         <div className="dr"></div>
