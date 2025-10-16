@@ -7,26 +7,20 @@ export const SocialIcons = () => {
         href="https://github.com/GregoryVDev"
         target="_blank"
         rel="noopener noreferrer"
-        className="mario-block"
+        className="media"
         aria-label="GitHub"
       >
-        <span className="question-mark">?</span>
-        <div className="icon">
-          <FaGithub />
-        </div>
+        <FaGithub />
       </a>
 
       <a
         href="https://www.linkedin.com/in/gregoryvdev/"
         target="_blank"
         rel="noopener noreferrer"
-        className="mario-block"
+        className="media"
         aria-label="LinkedIn"
       >
-        <span className="question-mark">?</span>
-        <div className="icon">
-          <FaLinkedin />
-        </div>
+        <FaLinkedin />
       </a>
     </div>
   );

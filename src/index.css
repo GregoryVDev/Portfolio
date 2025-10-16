@@ -45,7 +45,7 @@ section h2 {
 
 .media:hover {
   animation: coinBounce 0.4s ease;
-  color: red;
+  color: #8A8E91;
 }
 
 @keyframes coinBounce {
@@ -134,34 +134,6 @@ section h2 {
   }
 }
 
-/* Cube Mario */
-
-.mario-block {
-  position: relative;
-  width: 50px;
-  height: 50px;
-  background: #F2CD11;
-  border: 3px solid #D4A800;
-  box-shadow:
-    inset -3px -3px #E6D600,
-    inset 3px 3px #C9A800;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-  overflow: visible;
-  font-size: 1.5rem;
-  font-family: 'PressStart', cursive;
-  color: #F7F7F7;
-}
-
-.mario-block::before {
-  font-size: 24px;
-  font-weight: bold;
-  color: #fff;
-  text-shadow: 2px 2px #b5651d;
-}
-
 .icon {
   position: absolute;
   bottom: 60px;
@@ -192,35 +164,13 @@ section h2 {
   animation: coinSpin 0.6s ease forwards;
 }
 
-/* Faire une animation de pièce */
-
-@keyframes coinSpin {
-  0% {
-    transform: translate(-50%, 20px) rotateY(0deg);
-    opacity: 0;
-  }
-
-  30% {
-    opacity: 1;
-  }
-
-  50% {
-    transform: translate(-50%, -10px) rotateY(180deg);
-  }
-
-  100% {
-    transform: translate(-50%, 0px) rotateY(360deg);
-    opacity: 1;
-  }
-}
-
 /* CONTAINERS INFOS */
 
 .container-infos {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  margin-bottom: 85px;
+  margin-bottom: 25px;
 }
 
 .container-infos [role="img"] {
