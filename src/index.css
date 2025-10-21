@@ -244,6 +244,10 @@ section img {
     width: 50%;
   }
 
+  .container-infos {
+    align-items: flex-start;
+  }
+
   .container-infos li {
     font-size: 25px;
     text-align: center;
