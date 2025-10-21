@@ -222,3 +222,15 @@ section img {
   justify-content: center;
   gap: 10px;
 }
+
+
+/* TABLET */
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+  .about img {
+    display: flex;
+    margin: 0 auto 20px;
+    width: 50%;
+  }
+}
