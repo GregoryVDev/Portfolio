@@ -22,9 +22,10 @@ section h2 {
 }
 
 .about img {
-  width: 100%;
+  width: 50%;
   border-radius: 50%;
-  margin: 20px 0;
+  display: flex;
+  margin: 50px auto 20px;
 }
 
 .about p {
@@ -240,7 +241,7 @@ section img {
 
   .about img {
     display: block;
-    margin: 0 auto 20px;
+    margin: 50px auto 20px;
     width: 50%;
   }
 
