@@ -26,3 +26,18 @@ a {
   color: #2C3E50;
   text-decoration: none;
 }
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+  h1 {
+    font-size: 45px;
+  }
+
+  .content {
+    font-size: 25px;
+  }
+
+  a {
+    font-size: 25px;
+  }
+}
