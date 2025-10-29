@@ -131,6 +131,12 @@
     gap: 10px;
 }
 
+.container-informations {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
 /* DESKTOP */
 
 @media screen and (min-width: 1024px) {}
