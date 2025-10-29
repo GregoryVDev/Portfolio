@@ -264,3 +264,15 @@ section img {
     text-align: center;
   }
 }
+
+/* DESKTOP */
+
+@media screen and (min-width: 1024px) {
+  .about img {
+    width: 20%;
+  }
+
+  .container-infos li {
+    font-size: 22px;
+  }
+}
