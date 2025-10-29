@@ -51,45 +51,22 @@ export const About = () => {
             Titulaire d'un C.A.P Cuisine obtenu en 2013, j'ai exercé ce métier
             pendant douze années, ce qui m'a permis de développer des
             compétences solides en organisation, sens des responsabilités,
-            créativité et rapidité d'exécution. Travailler en cuisine m'a appris
-            à gérer la pression, à rester concentré même dans les moments les
-            plus intenses, et à ne jamais négliger le moindre détail, car chaque
-            geste compte pour obtenir un résultat parfait.
+            créativité et rapidité d'exécution.
           </p>
           <p>
-            En 2024, j'ai décidé de me reconvertir dans le développement web, un
-            domaine qui me passionne et dans lequel je retrouve les mêmes
-            valeurs qu'en cuisine : organisation, rapidité, sens des
-            responsabilités et créativité. Le développement web me permet de
-            construire des projets de A à Z, de tester des idées, de résoudre
-            des problèmes concrets et de voir directement le fruit de mon
-            travail, ce qui est extrêmement gratifiant.
+            En 2024, j'ai décidé de faire une reconversion dans le développement
+            web, un domaine qui me passionne et dans lequel je retrouve les
+            mêmes valeurs qu'en cuisine : organisation, rapidité, sens des
+            responsabilités et créativité.
           </p>
           <p>
-            Ce que j'aime dans ce métier, c'est la créativité et la liberté
-            qu'il offre. J'apprécie autant travailler sur le front-end que sur
-            le back-end, car chaque côté présente ses propres défis et
-            possibilités. J'aime chercher des solutions élégantes et efficaces,
-            comprendre comment fonctionne chaque système et apprendre de
-            nouvelles technologies pour améliorer mes compétences. Pour moi,
-            chaque projet est un véritable défi et une occasion de progresser.
-          </p>
-          <p>
-            En dehors du développement, je suis une personne curieuse et
-            déterminée. Je suis passionné de musique, notamment le piano et le
-            chant, et je joue aussi à des jeux vidéo, ce qui me permet de
-            développer ma logique, ma créativité et ma patience. Ces passions
-            nourrissent ma façon d'aborder le développement : chaque projet
-            devient comme un “jeu” où je cherche à optimiser, tester et
-            améliorer mes compétences.
+            Ce que j'aime dans ce métier, c'est la créativité. J'apprécie autant
+            travailler sur le front-end que le back-end. J'y trouve toujours de
+            nouveaux défis, et j'ai envie d'apprendre de nouvelles technologies.
           </p>
           <p>
             Je sais qu'il me reste encore beaucoup à apprendre, mais je suis
-            motivé, ambitieux et toujours prêt à relever de nouveaux défis. Mon
-            objectif est de continuer à progresser, à acquérir de nouvelles
-            compétences techniques, à créer des projets qui ont du sens et à
-            toujours garder cette curiosité et cette passion qui me
-            caractérisent depuis mes débuts.
+            motivé, ambitieux et toujours prêt à relever de nouveaux défis.
           </p>
         </section>
         <div className="container-faq">
