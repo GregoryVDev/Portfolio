@@ -126,7 +126,19 @@ export const SkillsIcons = () => {
                 openIndexes.includes(index) ? "show" : ""
               }`}
             >
-              <ul className="tech-list">
+              <ul
+                className={`tech-list ${
+                  cat.category === "FRONT-END"
+                    ? "front-end"
+                    : cat.category === "BACK-END"
+                    ? "back-end"
+                    : cat.category === "UX & UI"
+                    ? "ux-ui"
+                    : cat.category === "Outils"
+                    ? "outils"
+                    : ""
+                }`}
+              >
                 {cat.techs.map((tech, i) => (
                   <li key={i} className="tech-item">
                     {tech.icon}
