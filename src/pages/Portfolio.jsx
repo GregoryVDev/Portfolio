@@ -8,7 +8,7 @@ export const Portfolio = () => {
       <Header />
       <section className="projects">
         <div className="container-portfolio">
-          <div className="container-project">
+          <article className="container-project">
             <img src="../../public/images/jadoopc.png" alt="Jadoo" />
             <img
               src="../../public/images/jadoomobile.png"
@@ -27,9 +27,9 @@ export const Portfolio = () => {
                 <FaGithub size="25px" /> Source Code
               </a>
             </div>
-          </div>
+          </article>
           <div className="container-portfolio">
-            <div className="container-project">
+            <article className="container-project">
               <img
                 src="../../public/images/worldtravelpc.png"
                 alt="World Travel"
@@ -54,10 +54,10 @@ export const Portfolio = () => {
                   <FaGithub size="25px" /> Source Code
                 </a>
               </div>
-            </div>
+            </article>
           </div>
           <div className="container-portfolio">
-            <div className="container-project">
+            <article className="container-project">
               <img src="../../public/images/playverse.png" alt="PlayVerse" />
               <img
                 src="../../public/images/playversemobile.png"
@@ -79,10 +79,10 @@ export const Portfolio = () => {
                   <FaGithub size="25px" /> Source Code
                 </a>
               </div>
-            </div>
+            </article>
           </div>
           <div className="container-portfolio">
-            <div className="container-project">
+            <article className="container-project">
               <img
                 src="../../public/images/countriesflags.png"
                 alt="Countries Flags"
@@ -107,7 +107,7 @@ export const Portfolio = () => {
                   <FaGithub size="25px" /> Source Code
                 </a>
               </div>
-            </div>
+            </article>
           </div>
         </div>
       </section>

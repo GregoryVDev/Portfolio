@@ -1,16 +1,20 @@
 .container-project {
     position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .container-portfolio img {
-    width: 100%;
+    width: 80%;
     margin-bottom: 100px;
+    display: flex;
 }
 
 .mobile {
     position: absolute;
     top: 10%;
-    right: 30%;
+    right: 33%;
 }
 
 .container-buttons {
@@ -36,10 +40,24 @@
 /* TABLET */
 
 @media screen and (min-width: 700px) and (max-width: 1023px) {
-    .mobile {
-        position: absolute;
-        top: 80px;
-        right: 200px;
+
+    .container-portfolio img {
+        width: 50%;
     }
 
+    .mobile {
+        right: 39.2%;
+    }
+}
+
+/* DESKTOP */
+
+@media screen and (min-width: 1024px) {
+    .container-portfolio img {
+        width: 25%;
+    }
+
+    .mobile {
+        right: 44.8%;
+    }
 }
