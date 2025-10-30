@@ -41,3 +41,13 @@ a {
     font-size: 25px;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  h1 {
+    font-size: 45px;
+  }
+
+  header a {
+    font-size: 26px
+  }
+}

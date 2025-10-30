@@ -133,4 +133,13 @@
 
 /* DESKTOP */
 
-@media screen and (min-width: 1024px) {}
+@media screen and (min-width: 1024px) {
+
+    .infos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 800px;
+        margin: 50px auto auto;
+    }
+}

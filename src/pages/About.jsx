@@ -8,7 +8,7 @@ export const About = () => {
     {
       question: "Qui suis-je ?",
       answer:
-        "Je m'appelle Grégory, j'ai 29 ans et je suis un ancien second de cuisine. J'habite à côté de Libourne et je suis en reconversion professionnelle pour devenir Concépteur Développeur d'Application.",
+        "Je m'appelle Grégory, j'ai 29 ans et je suis un ancien second de cuisine. J'habite à côté de Libourne et je suis en reconversion professionnelle pour devenir Concepteur Développeur d'Application.",
     },
     {
       question:
@@ -24,10 +24,9 @@ export const About = () => {
     {
       question: "Quel est mon objectif professionnel ?",
       answer:
-        "Mon objectif professionnel, c'est de trouver une alternance afin de poursuivre mes études en bachelor en tant que Concépteur Développeur d'Application.",
+        "Mon objectif professionnel, c'est de trouver une alternance afin de poursuivre mes études en bachelor en tant que Concepteur Développeur d'Application.",
     },
   ];
-
   // Stocker plusieurs index ouverts dans le tableau
   const [openIndexes, setOpenIndexes] = useState([]);
 
@@ -69,38 +68,36 @@ export const About = () => {
             motivé, ambitieux et toujours prêt à relever de nouveaux défis.
           </p>
         </section>
-        <div className="container-faq">
-          <section className="faq">
-            <h2>Foire aux questions</h2>
-            <div className="faq-container">
-              {faqData.map((item, index) => (
-                <div key={index} className="faq-item">
-                  <button
-                    className={`faq-question ${
-                      openIndexes.includes(index) ? "active" : ""
-                    }`}
-                    onClick={() => toggleFAQ(index)}
-                  >
-                    {item.question}
-                    <span className="faq-icon">
-                      {openIndexes.includes(index) ? "-" : "+"}
-                    </span>
-                  </button>
-                  <div
-                    className={`faq-answer ${
-                      openIndexes.includes(index) ? "show" : ""
-                    }`}
-                  >
-                    <p>{item.answer}</p>
-                  </div>
+        <section className="skills">
+          <SkillsIcons />
+        </section>
+        <section className="faq">
+          <h2>Foire aux questions</h2>
+          <div className="faq-container">
+            {faqData.map((item, index) => (
+              <div key={index} className="faq-item">
+                <button
+                  className={`faq-question ${
+                    openIndexes.includes(index) ? "active" : ""
+                  }`}
+                  onClick={() => toggleFAQ(index)}
+                >
+                  {item.question}
+                  <span className="faq-icon">
+                    {openIndexes.includes(index) ? "-" : "+"}
+                  </span>
+                </button>
+                <div
+                  className={`faq-answer ${
+                    openIndexes.includes(index) ? "show" : ""
+                  }`}
+                >
+                  <p>{item.answer}</p>
                 </div>
-              ))}
-            </div>
-          </section>
-          <section className="skills">
-            <SkillsIcons />
-          </section>
-        </div>
+              </div>
+            ))}
+          </div>
+        </section>
       </div>
     </div>
   );
