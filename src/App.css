@@ -58,8 +58,6 @@ header a:not(:hover)::after {
   transform: scaleX(0);
 }
 
-
-
 @media screen and (min-width: 700px) and (max-width: 1023px) {
 
   h1 {
