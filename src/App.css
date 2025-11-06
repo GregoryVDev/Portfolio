@@ -15,10 +15,21 @@ body.dark {
   color: #f5f5f5;
 }
 
-.dark a {
-  color: #f5f5f5;
+.dark header a {
+  color: #f5f5f5 !important;
 }
 
+.dark li a {
+  color: #F3D30D;
+}
+
+.dark .resum a {
+  color: #F3D30D;
+}
+
+.dark .medias a {
+  color: #f5f5f5;
+}
 
 
 @font-face {
