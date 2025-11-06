@@ -12,3 +12,7 @@ li {
 .navigation ul li a:hover {
     color: #8A8E91;
 }
+
+.theme-toggle-container {
+    text-align: center;
+}

@@ -1,8 +1,9 @@
 import { NavLink } from "react-router-dom";
+import { ThemeToggle } from "./ThemeToggle";
 
 export const Navigation = () => {
   return (
-    <div className="navigation">
+    <header className="navigation">
       <ul>
         <li>
           <NavLink
@@ -29,6 +30,9 @@ export const Navigation = () => {
           </NavLink>
         </li>
       </ul>
-    </div>
+      <div className="theme-toggle-container">
+        <ThemeToggle />
+      </div>
+    </header>
   );
 };

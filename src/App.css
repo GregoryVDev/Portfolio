@@ -1,6 +1,12 @@
-body {
+body.light {
   background-color: #f5f5f5;
   color: #1e1e1e;
+  font-family: "Roboto-Regular";
+}
+
+body.dark {
+  background-color: #1e1e1e;
+  color: #f5f5f5;
   font-family: "Roboto-Regular";
 }
 
