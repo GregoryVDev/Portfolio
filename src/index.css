@@ -272,7 +272,7 @@ section img {
 
 @media screen and (min-width: 1024px) {
   .about img {
-    width: 20%;
+    width: 10%;
   }
 
   .container-infos li {

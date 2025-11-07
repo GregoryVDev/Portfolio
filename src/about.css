@@ -61,9 +61,17 @@
     background: #fff;
 }
 
+.dark .faq-answer.show {
+    background: #1e1e1e;
+}
+
 .faq-answer.show p {
     color: #252C36;
     line-height: 25px;
+}
+
+.dark .faq-answer.show p {
+    color: #f5f5f5;
 }
 
 .faq-icon {
