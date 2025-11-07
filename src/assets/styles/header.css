@@ -5,6 +5,36 @@ header ul {
     padding: 0
 }
 
+header a {
+    position: relative;
+    display: inline-block;
+    color: #2C3E50;
+    text-decoration: none;
+}
+
+header a::after {
+    content: "";
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #2C3E50;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+}
+
+header a:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+header a:not(:hover)::after {
+    transform-origin: right;
+    transform: scaleX(0);
+}
+
 li {
     list-style-type: none;
 }
@@ -13,6 +43,23 @@ li {
     color: #8A8E91;
 }
 
+.dark .navigation ul li a:hover {
+    color: #F3D30D !important;
+}
+
+.dark header a::after {
+    background: #F3D30D;
+}
+
 .theme-toggle-container {
     text-align: center;
+}
+
+.nav-active {
+    color: #8A8E91 !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dark .nav-active {
+    color: #F3D30D !important;
 }
