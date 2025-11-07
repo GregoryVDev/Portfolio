@@ -10,6 +10,22 @@ body.dark {
   font-family: "Roboto-Regular";
 }
 
+@font-face {
+  font-family: 'MontserratRegular';
+  src: url('./assets/fonts/Montserrat-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "RobotoRegular";
+  src: url("./assets/fonts/Roboto-Regular.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: "PressStart";
+  src: url("./assets/fonts/PressStart2P-Regular.ttf") format('truetype');
+}
+
+/* Dark Mode */
 .dark h1,
 .dark h2 {
   color: #f5f5f5;
@@ -31,21 +47,11 @@ body.dark {
   color: #f5f5f5;
 }
 
-
-@font-face {
-  font-family: 'MontserratRegular';
-  src: url('./assets/fonts/Montserrat-Regular.ttf') format('truetype');
+.dark .dr {
+  background: #F3D30D;
 }
 
-@font-face {
-  font-family: "RobotoRegular";
-  src: url("./assets/fonts/Roboto-Regular.ttf") format('truetype');
-}
-
-@font-face {
-  font-family: "PressStart";
-  src: url("./assets/fonts/PressStart2P-Regular.ttf") format('truetype');
-}
+/* Fin Dark Mode */
 
 h1,
 h2,

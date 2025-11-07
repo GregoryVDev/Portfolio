@@ -194,8 +194,11 @@ section h2 {
   font-family: "RobotoRegular";
 }
 
-.resum a {
+.container-infos li a {
   color: #8A8E91;
+}
+
+.resum a {
   font-weight: bold;
 }
 
