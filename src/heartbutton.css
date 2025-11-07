@@ -1,8 +1,8 @@
 .heart-container {
     display: inline-block;
     cursor: pointer;
-    width: 30px;
-    height: 30px;
+    width: 60px;
+    height: 60px;
     user-select: none;
     -webkit-user-select: none;
     -moz-user-select: none;

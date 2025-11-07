@@ -34,7 +34,7 @@ export const HeartButton = () => {
     >
       <motion.svg
         xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 24 24"
+        viewBox="-2 -2 28 28" // <-- marge élargie pour ne rien couper
         className="heart"
         width="30"
         height="30"
