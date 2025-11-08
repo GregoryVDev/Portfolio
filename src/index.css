@@ -17,6 +17,10 @@ section h2 {
   font-size: 2rem;
 }
 
+.dark section h3 {
+  color: #f5f5f5;
+}
+
 .nom {
   text-transform: uppercase;
 }

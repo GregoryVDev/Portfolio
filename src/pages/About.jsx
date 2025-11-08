@@ -72,7 +72,7 @@ export const About = () => {
           <SkillsIcons />
         </section>
         <section className="faq">
-          <h2>Foire aux questions</h2>
+          <h3>Foire aux questions</h3>
           <div className="faq-container">
             <div className="faq-column">
               {faqData.slice(0, 2).map((item, index) => (

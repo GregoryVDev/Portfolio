@@ -105,7 +105,7 @@ export const SkillsIcons = () => {
 
   return (
     <section className="faq">
-      <h2>Mes technologies</h2>
+      <h3>Mes technologies</h3>
       <div className="faq-container">
         {techCategories.map((cat, index) => (
           <div key={index} className="faq-item">

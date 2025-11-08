@@ -19,10 +19,11 @@
     font-family: 'Nunito', sans-serif;
 }
 
-.faq h2 {
+.faq h3 {
     text-align: center;
     color: #2C3E50;
     margin-bottom: 20px;
+    font-size: 32px;
 }
 
 .faq-item {
