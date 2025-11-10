@@ -3,6 +3,7 @@ import { Home } from "./pages/Home.jsx";
 import { About } from "./pages/About.jsx";
 import { Portfolio } from "./pages/Portfolio.jsx";
 import { HeartButton } from "./Components/HeartButton.jsx";
+import { Settings } from "./Components/Settings.jsx";
 import "./App.css";
 
 export function App() {
@@ -17,6 +18,7 @@ export function App() {
 
       <div style={{ textAlign: "center", marginTop: "30px" }}>
         <HeartButton />
+        <Settings />
       </div>
     </BrowserRouter>
   );
