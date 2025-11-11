@@ -16,15 +16,13 @@ export const Portfolio = () => {
               className="mobile"
             />
             <div className="container-buttons">
-              <a href="https://gregoryvdev.com/jadoo/" target="_blank">
+              <a
+                href="https://gregoryvdev.com/jadoo/"
+                target="_blank"
+                className="demo-button"
+              >
                 <CgWebsite size="25px" />
                 Démo
-              </a>
-              <a
-                href="https://github.com/GregoryVDev/acs-jadoo"
-                target="_blank"
-              >
-                <FaGithub size="25px" /> Source Code
               </a>
             </div>
           </article>
@@ -39,15 +37,13 @@ export const Portfolio = () => {
               className="mobile"
             />
             <div className="container-buttons">
-              <a href="https://gregoryvdev.com/worldtravel/" target="_blank">
+              <a
+                href="https://gregoryvdev.com/jadoo/"
+                target="_blank"
+                className="demo-button"
+              >
                 <CgWebsite size="25px" />
                 Démo
-              </a>
-              <a
-                href="https://github.com/GregoryVDev/WorldTravel"
-                target="_blank"
-              >
-                <FaGithub size="25px" /> Source Code
               </a>
             </div>
           </article>
@@ -60,17 +56,12 @@ export const Portfolio = () => {
             />
             <div className="container-buttons">
               <a
-                href="https://gregoryvdev.com/playverse/index.php"
+                href="https://gregoryvdev.com/jadoo/"
                 target="_blank"
+                className="demo-button"
               >
                 <CgWebsite size="25px" />
                 Démo
-              </a>
-              <a
-                href="https://github.com/GregoryVDev/PlayVerse"
-                target="_blank"
-              >
-                <FaGithub size="25px" /> Source Code
               </a>
             </div>
           </article>
@@ -85,15 +76,13 @@ export const Portfolio = () => {
               className="mobile"
             />
             <div className="container-buttons">
-              <a href="https://gregoryvdev.com/countriesflags/" target="_blank">
+              <a
+                href="https://gregoryvdev.com/jadoo/"
+                target="_blank"
+                className="demo-button"
+              >
                 <CgWebsite size="25px" />
                 Démo
-              </a>
-              <a
-                href="https://github.com/GregoryVDev/CountryFlag"
-                target="_blank"
-              >
-                <FaGithub size="25px" /> Source Code
               </a>
             </div>
           </article>
