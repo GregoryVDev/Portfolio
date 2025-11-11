@@ -1,0 +1,71 @@
+.settings-container {
+    position: fixed;
+    top: 50%;
+    right: 40px;
+    transform: translateY(-50%);
+    text-align: right;
+}
+
+#settings-btn {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 28px;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+#settings-btn:hover {
+    transform: rotate(30deg) scale(1.1);
+}
+
+#settings-menu {
+    position: absolute;
+    top: 50%;
+    right: 80px;
+    transform: translateY(-50%);
+    background-color: #1e1e1e;
+    color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    width: 220px;
+}
+
+.setting-section {
+    margin-bottom: 15px;
+}
+
+.setting-section h4 {
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #ddd;
+}
+
+.color-options {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.color-square {
+    width: 25px;
+    height: 25px;
+    border-radius: 6px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: transform 0.2s, border-color 0.2s;
+}
+
+.color-group h4 {
+    text-align: center;
+}
+
+
+.color-square:hover {
+    transform: scale(1.1);
+    border-color: white;
+}
