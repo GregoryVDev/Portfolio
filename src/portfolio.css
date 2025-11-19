@@ -59,10 +59,11 @@
     gap: 5px;
     padding: 10px;
     border-radius: 5px;
+    border: 2px solid #1e1e1e;
 }
 
 .dark .container-buttons a {
-    border: 1px solid #f5f5f5;
+    border: 2px solid #f5f5f5;
 }
 
 .dark .container-buttons a {
@@ -72,6 +73,7 @@
 .container-buttons a:hover {
     opacity: 0.5;
 }
+
 
 /* TABLET */
 

@@ -27,13 +27,13 @@ export function Settings() {
             <div className="color-options">
               <span
                 className="color-square"
-                style={{ backgroundColor: "blue" }}
-                onClick={() => changeColor("button", "blue")}
+                style={{ backgroundColor: "#F3D30D" }}
+                onClick={() => changeColor("button", "#F3D30D")}
               />
               <span
                 className="color-square"
-                style={{ backgroundColor: "green" }}
-                onClick={() => changeColor("button", "green")}
+                style={{ backgroundColor: "#FFFFFF" }}
+                onClick={() => changeColor("button", "#FFFFFF")}
               />
               <span
                 className="color-square"
