@@ -24,13 +24,14 @@
 
 #settings-menu {
     position: absolute;
-    top: 50%;
-    right: 80px;
+    top: 295%;
+    right: 10px;
     transform: translateY(-50%);
     background-color: #1e1e1e;
     color: white;
     border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    border: 1px solid #F3D30D;
     padding: 20px;
     width: 220px;
 }
